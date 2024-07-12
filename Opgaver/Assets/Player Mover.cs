@@ -20,6 +20,7 @@ void Update()
 {
 
     Vector3 move = rigidbody.velocity;
+    rigidbody.velocity = move;
         move.x = Input.GetAxisRaw("Horizontal");
         move.z = Input.GetAxisRaw("Vertical");
         rigidbody.velocity = move;

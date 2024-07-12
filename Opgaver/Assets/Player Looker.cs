@@ -43,7 +43,10 @@ public class PlayerLooker : MonoBehaviour
         {
             var transform = GetComponent<Transform>();
         }
+        {
+            transform.Rotate(0, 5, 0);
         }
+        }   
     } 
 
 
